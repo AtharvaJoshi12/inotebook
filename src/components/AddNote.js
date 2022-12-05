@@ -18,11 +18,11 @@ const AddNote = () => {
   };
   return (
     <div className="container my-3">
-      <h2>Add a Note</h2>
+      <h2>Add a Course</h2>
       <form className="my-3">
         <div className="mb-3">
           <label htmlFor="title" className="form-label">
-            Title
+            Course Title
           </label>
           <input
             type="text"
@@ -38,7 +38,7 @@ const AddNote = () => {
         </div>
         <div className="mb-3">
           <label htmlFor="description" className="form-label">
-            Description
+            Course Description
           </label>
           <input
             type="text"
@@ -53,7 +53,7 @@ const AddNote = () => {
         </div>
         <div className="mb-3">
           <label htmlFor="tag" className="form-label">
-            Tag
+            Tags
           </label>
           <input
             type="text"
@@ -73,7 +73,7 @@ const AddNote = () => {
           className="btn btn-danger"
           onClick={handleClick}
         >
-          Add Note
+          Buy Course
         </button>
       </form>
     </div>
